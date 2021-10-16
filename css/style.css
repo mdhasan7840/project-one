@@ -1,0 +1,562 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+    line-height:24px;
+    padding:80px 100px 0px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto Slab', serif;
+}
+a, a:hover{
+    text-decoration:none;
+}
+/* first section starts from here */
+.first-section{
+    width:100%;
+    display: flex;
+    box-sizing:border-box;
+}
+.first-section .first-left{
+    width:50%;
+}
+.first-left h1{
+    font-size:60px;
+    line-height:70px;
+    color:#242424;
+    font-weight:700;
+}
+.first-left h2{
+    font-size:40px;
+    color:#242424;
+    line-height:50px;
+    font-weight:800;
+    margin:10px 0px;
+}
+.first-left h2 .mdHasan{
+    color:#ff4500;
+}
+.first-left h3{
+    color:#242424;
+}
+.first-left p{
+    color:#696969;
+    margin-top:10px;
+    padding-right:60px;
+    margin-bottom:20px;
+}
+.first-left a{
+    border:1px solid #ff4500;
+    background:#ff4500;
+    padding:10px 20px;
+    color:#fff;
+    font-weight:500;
+    border-radius:5px;
+
+}
+.first-section .first-right{
+    width:50%;
+    text-align:center;
+    margin-top:-100px;
+}
+.first-section .first-right img{
+    width:450px;
+    height:450px;
+    
+}
+/* first section ends from here */
+
+/* second section starts from here */
+.second-section{
+    width:100%;
+    display:flex;
+    margin:80px 0px;
+}
+.second-section .second-left{
+    width:50%;
+}
+.second-section .second-left img{
+    width:500px;
+    height:500px;
+    margin-top:-100px;
+}
+.second-section  .second-right{
+    width:50%;
+}
+.second-right h2{
+    font-size:40px;
+    color:#242424;
+    line-height:50px;
+    font-weight:800;
+    margin:10px 0px;
+}
+.second-right h3{
+    color:#242424;
+}
+.second-right p{
+    color:#696969;
+    margin-top:10px;
+    padding-right:60px;
+    margin-bottom:20px;
+}
+.second-right a{
+    border:1px solid #ff4500;
+    background:#ff4500;
+    padding:10px 20px;
+    color:#fff;
+    font-weight:500;
+    border-radius:5px;
+}
+/* second section ends from here */
+
+/*  third  section starts from here */
+.third-section{
+    width:100%;
+    margin:40px auto;
+}
+.third-section h2{
+    font-size:40px;
+    color:#242424;
+    line-height:50px;
+    font-weight:800;
+    margin:10px 0px;
+}
+.third-section .third-section-inner{
+    width:80%;
+    margin:40px auto;
+    display:flex;
+    
+}
+.box-shadow{
+    box-shadow:10px 10px 40px #c1c1c1;
+}
+.third-section-inner .third-sec-left{
+    width:50%;
+    margin-right:20px;
+    padding:20px;
+    border-left:5px;
+    border-left-style:solid;
+    border-image:linear-gradient(#ff4500, #f3551b);
+    border-image-slice:1;
+    border-radius:10px;
+
+
+    
+    
+}
+.third-sec-left h2{
+    font-size:30px;
+    line-height:30px;
+}
+.third-sec-left h3{
+    color:#ff4500;
+    font-size:20px;
+    line-height:30px;
+}
+.third-sec-left p{
+    color:#696969;
+    margin-top:10px;
+    margin-bottom:20px;
+    padding-right:20px;
+    text-align:justify;
+}
+.third-section-inner .third-sec-right{
+    width:50%;
+    margin-left: 20px;
+    padding:20px;
+    border-left:5px;
+    border-left-style:solid;
+    border-image:linear-gradient(#ff4500, #f3551b);
+    border-image-slice:1;
+    border-radius:10px;
+}
+.third-sec-right h2{
+    font-size:30px;
+    line-height:30px;
+}
+.third-sec-right h3{
+    color:#ff4500;
+    font-size:20px;
+    line-height:30px;
+}
+.third-sec-right p{
+    color:#696969;
+    margin-top:10px;
+    margin-bottom:20px;
+    padding-right:20px;
+    text-align:justify;
+}
+/*  third section ends from here */
+
+/* footer section start from here */
+footer{
+     width:100%;   
+}
+footer p{
+    text-align:center;
+    color:#696969;
+    font-size:16px;
+    margin-top:50px;
+}
+/* footer section ends from here */
+
+
+/* Responsive section starts from here */
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    /* CSS */
+    /* first section starts from here */
+    body{
+        padding:20px;
+    }
+    .first-section{
+        width:100%;
+        display:block;
+        padding:0px;
+        
+    }
+    .first-section .first-left{
+        width:100%;
+        display:block;
+
+    }
+    .first-left h1{
+        font-size:45px;
+    }
+    .first-left h2{
+        font-size:28px;
+    }
+   
+    .first-left h3{
+        font-size:20px;
+        line-height:30px;
+    }
+    .first-left p{
+        padding:0px;
+    }
+    .first-section .first-right{
+        width:100%;
+        text-align:center;
+        
+    }
+    .first-section .first-right img{
+        width:300px;
+        height:300px;
+        margin:130px auto 30px;
+    }
+
+
+
+    /* first section ends from here */
+
+    /* second section start from here */
+    .second-section{
+        width:100%;
+        display:block;
+        margin:20px auto;
+    }
+    .second-section .second-left{
+        width:100%;
+        display:block;
+        text-align:center;
+    }
+    .second-section .second-left img{
+        width:300px;
+        height:300px;
+        margin:10px auto;
+    }
+    .second-section .second-right{
+        width:100%;
+
+    }
+    .second-section .second-right h2{
+        font-size:28px;
+        line-height:38px;
+
+    }
+    .second-right h3{
+        font-size:20px;
+        line-height:38px;
+    }
+    .second-right p{
+        padding:0px;
+    }
+
+
+
+
+
+    /* second section ends from here */
+
+    /* third section start from here */
+    .third-section{
+        width:100%;
+        overflow:hidden;
+    }
+    .third-section h2{
+        font-size:28px;
+    }
+    .third-section .third-section-inner{
+        width:100%;
+        margin:auto;
+        display:block;
+    }
+    .third-section .box-shadow{
+        box-shadow:5px 5px 20px #c1c1c1;;
+    }
+    .third-section-inner .third-sec-left{
+        width:70%;
+        margin:30px auto;
+
+    }
+    .third-sec-left h2{
+        font-size:18px;
+    }
+    .third-sec-left h3{
+        font-size:14px;
+    }
+    .third-sec-left p{
+        padding-right:5px;
+    }
+    .third-section-inner .third-sec-right{
+        width:70%;
+        margin:30px auto;
+    }
+    .third-section .third-sec-right h2{
+        font-size:18px;
+    }
+    .third-sec-right h3{
+        font-size:14px;
+    }
+    .third-sec-right p{
+        padding-right:5px;
+    }
+    /* third section ends from here */
+
+    /* footer section start from here */
+    footer p{
+        font-size:14px;
+    }
+    /* footer section ends from here */
+    
+  }
+
+  /* ========= */
+  /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    /* CSS */
+    /* first section start from here */
+    body{
+        padding:20px;
+    }
+    .first-section{
+        width:100%;
+        display:block;
+    }
+    .first-section .first-left{
+        width:100%;
+        display:block;
+    }
+    .first-left h1{
+        font-size:40px;
+        
+    }
+    .first-left h2{
+        font-size:30px;
+        margin-top:-10px;
+    }
+    .first-section .first-right{
+        text-align:center;
+    }
+    .first-section .first-right img{
+        width:400px;
+        height:400px;
+        margin:120px auto 50px;
+    }
+   /* first section ends from here */
+
+   /* second section start from here */
+   .second-section{
+    width:100%;
+    display:block;
+}
+.second-section .second-left{
+    width:100%;
+}
+.second-section .second-left img{
+    width:400px;
+    height:400px;
+    margin:10px auto 50px;
+}
+.second-section .second-right{
+    width:100%;
+}
+.second-right h2{
+    font-size:30px;
+}
+
+   /* second section ends from here */
+
+   /* third section start from here */
+   .third-section{
+       width:100%;
+   }
+   .third-section h2{
+       font-size:30px;
+   }
+   .third-section .third-section-inner{
+       width:100%;
+       display:block;
+       padding-left:10px;
+       overflow:hidden;
+       
+   }
+   .third-section-inner .third-sec-left{
+       width:80%;
+      margin-top:20px;
+      margin-bottom:60px;
+
+   }
+   .third-sec-left.third-sec-left h2{
+       font-size:25px;
+   }
+   .third-sec-left h3{
+       font-size:20px;
+   }
+   .third-section-inner .third-sec-right{
+       width:80%;
+       margin-left:0px;
+       margin-bottom:50px;
+       
+    }
+    .third-section h2{
+        font-size:25px;
+    }
+    .third-sec-right h3{
+        font-size:20px;
+    }
+
+
+   /* third section ends from here */
+    
+  }
+  /* ======== */
+  /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    /* CSS */
+    /* first section start from here */
+    body{
+        padding:30px;
+    }
+    .first-section{
+        width:100%;
+        display:flex;
+        margin-bottom:50px;
+
+    }
+    .first-section .first-left{
+        width:50%;
+    }
+    .first-left h1{
+        font-size:40px;
+    }
+    .first-left h2{
+        font-size:30px;
+    }
+    .first-left p{
+        padding-right:10px;
+    }
+    .first-left a{
+        margin:10px auto 100px;
+    }
+    
+    .first-section .first-right{
+        width:50%;
+    }
+    
+    .first-section .first-right img{
+        width:320px;
+        height:330px;
+        object-fit:cover;
+        margin-top:80px;
+    }
+
+    /* first section ends here */
+
+    /* second section starts here */
+    .second-section{
+        width:100%;
+        margin:100px auto 50px;
+    }
+    .second-section .second-left{
+        width:50%
+    }
+
+    .second-section .second-left img{
+        margin-top:-20px;
+        width:320px;
+        height:330px;
+        object-fit:cover;
+        
+    }
+    
+    .second-section .second-right{
+        width:50%;
+    }
+    .second-right h2{
+        font-size:30px;
+    }
+    .second-right p{
+        padding-right:20px;
+    }
+
+    /* second section ends here */
+
+    /* third section starts from here */
+    .third-section h2{
+        font-size:30px;
+    }
+    .third-section .third-section-inner{
+        width:100%;
+
+    }
+    .third-section h2{
+        font-size:20px;
+    }
+    .third-sec-left h3{
+        font-size:15px;
+    }
+    .third-sec-left p{
+        font-size:14px;
+    }
+    .third-section h2{
+        font-size:20px;
+    }
+    .third-sec-right h3{
+        font-size:15px;
+    }
+
+    /* third section ends from here */
+    
+  }
+
+/* Responsive section ends from here */
